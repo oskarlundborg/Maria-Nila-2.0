@@ -1,0 +1,230 @@
+* {
+  font-family: 'Crimson Text', 'Abril Fatface';
+}
+
+html, body {
+  background: rgb(105,129,45);
+  background: linear-gradient(0deg, rgba(105,129,45,1) 0%, rgba(47,104,129,1) 10%, rgba(45,105,129,1) 76%, rgba(129,45,105,1) 100%); 
+  background-attachment: fixed;
+  font-family: 'Crimson Text', serif;
+  padding: 1em;
+  }
+body {
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  }
+
+h1 {
+  text-align: center;
+  font-family: 'Abril Fatface', serif;
+  color: #2d6981;
+  font-size: 34px;
+}
+
+p {
+  color: #2d6981;
+  font-family: 'Crimson Text', serif;
+}
+
+.label {
+  color: #2d6981;
+}
+
+.send-button {
+  background-color: #2d6981;
+  color: white;
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: 'Crimson Text', serif;
+}
+
+main {
+  position: absolute;
+  top: 200px;
+  background-color: rgba(255, 255, 255, 0.801);
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+input,
+textarea,
+select {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  display: block;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Crimson Text', serif;
+  resize: none;
+}
+
+textarea {
+  height: 126px;
+}
+
+.right-layout {
+  max-width: 518px;
+  flex: 0 518px ;
+  margin: 20px;
+}
+.hair {
+  margin-left: 30px;
+}
+
+/*Header*/
+
+header {
+  position: absolute;
+  top: 40px;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: wrap;
+}
+
+.header-content-container {
+  max-width: 1000px;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.863);        
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.maria-logo-image { 
+  max-width: 100px;
+  max-height: 100px;
+}
+.maria-logo-text {
+  max-width: 400px;
+  height: 90px;
+  margin-left: 90px
+}
+
+.account-button-container {
+  margin-right: 30px;
+}
+
+.button {
+  background-color: #2d6981;
+  color: white;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: 'Crimson Text', serif;
+  transition: .5s ease;
+}
+.button:hover {
+  background-color: #1e4555;
+}
+
+.sign-up {
+  margin-left: 20px;
+}
+
+/*Footer*/
+
+footer {
+  position: absolute;
+  top: 1000px;
+  max-width: 1000px;
+  width: 100%;
+
+}
+
+.footer-content-container {
+  max-width: 1000px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.863);        
+  box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.maria-logo-text-and-image {
+  max-width: 500px;
+  height: 250px;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-box {
+  margin: 20px;
+}
+
+.footer-link {
+  color: #1d1d1d;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-link-item:hover {
+  text-decoration: underline;
+}
+
+.footer-link-list {
+  list-style-type: none;
+  padding-left: 0px;
+  line-height: 130%;
+}
+
+.list-name {
+  font-size: 17px;
+}
+
+.footer-link-item {
+  font-size: 13px;
+}    
+
+.socialmedia-icon-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fab {
+  margin: 5px;
+  font-size: 50px;
+  color: #2d6981;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.fab:hover {
+  color: #1e4555;
+}
